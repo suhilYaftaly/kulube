@@ -1,0 +1,72 @@
+Submit Order: /api/submitOrder?empId=9989
+Method: POST
+
+
+{
+   "tableNumber":"2",
+   "subtotal":141.46,
+   "taxes":18.39,
+   "total":159.85,
+   "orderItems":[
+      {
+         "id":1,
+         "name":"Bonjan Salad",
+         "description":"Bonjan salad is a flavorful and healthy appetizer from Afghanistan. Slices of eggplant are first fried and then poured over with a tomato sauce that's spiced with red pepper flakes, pepper, and cinnamon. The coated eggplants are usually left to cool in the refrigerator anywhere from a few hours to overnight, and are then served at room temperature, preferably with Afghan flatbread or a cup of yogurt.",
+         "price":24.51,
+         "img":1,
+         "qty":2,
+         "total":49.02,
+         "note":"Extra sauce, no onions"
+      },
+      {
+         "id":2,
+         "name":"Badenjan Burani",
+         "description":"Badenjan-burani is a delicious Afghan dip made by blending fried or roasted eggplants, garlic, yogurt, and olive oil. The eggplants are traditionally fried, but most recipes suggest roasting or baking them. The dip is seasoned with fresh or dried mint, and it is typically eaten as an appetizer that is paired with lavash or Afghan flatbread. An almost identical version of this dip can be found in Persian cuisine where additional ingredients may include walnuts, rose petals, and saffron.",
+         "price":13.99,
+         "img":2,
+         "qty":1,
+         "total":13.99,
+         "note":""
+      },
+      {
+         "id":3,
+         "name":"Osh Pyozee",
+         "description":"Osh pyozee, meaning stuffed onions, is an Afghan specialty made with onions filled with rice, ground meat, feta cheese, and prunes. Layers of boiled yellow onions are topped with a mixture of cooked rice, ground lamb, feta, prunes, and sautéed garlic with cumin seeds. The onion layers are tightly folded around the filling, drizzled with oil, and then baked until nicely browned and fragrant. This savory treat is usually consumed as an appetizer, but it can also be served as a main dish or an accompaniment to various Afghan dishes.",
+         "price":19.99,
+         "img":1,
+         "qty":2,
+         "total":39.98,
+         "note":""
+      },
+      {
+         "id":2,
+         "name":"Ashak Dumplings",
+         "description":"Ashak or simply leek and scallion dumplings is an Afghan meal that is usually served on special occasions or holidays. These delicious dumplings are filled with leek and chopped spring onions. This dish is generally served with minced lamb or beef. Tomato sauce and dried mint are also served with it to enhance its flavor.",
+         "price":18.5,
+         "img":4,
+         "qty":1,
+         "total":18.5,
+         "note":""
+      },
+      {
+         "id":1,
+         "name":"Dough",
+         "description":"Dough is one drink which will be always on the menu in any Afghan/Persian restaurants. It's a yogurt drink very similar to salted lassi, the difference is that in dough you also add cucumber and mint leaves",
+         "price":5.99,
+         "img":7,
+         "qty":1,
+         "total":5.99,
+         "note":""
+      },
+      {
+         "id":3,
+         "name":"Mango Juice",
+         "description":"Mango juice! Like the World's best mango market in a glass! Full of refreshing fruity flavors, little tangy & sweet, this homemade truly tropical mango juice is the best you can make this summer! If you have never had homemade mango juice made from real fresh mangoes, you are in for a real treat! Though in a pinch frozen or mango pulp works, fresh mangoes are the best and taste delicious if harvested during the peak season.",
+         "price":6.99,
+         "img":9,
+         "qty":2,
+         "total":13.98,
+         "note":""
+      }
+   ]
+}

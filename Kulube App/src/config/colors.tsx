@@ -1,0 +1,16 @@
+export default Object.freeze({
+  primary: '#FF6721',
+  success: '#00985f',
+  info: '#1F8DF4',
+  link: '#1A73E9',
+  warning: '#ffbf3f',
+  danger: '#dc3545',
+  white: '#FFFFFF',
+  greyDark: '#414042',
+  greyMedium: '#b3b3b3',
+  greyLight: '#E8E8E8',
+  black: '#000000',
+  black50: 'rgba(0, 0, 0, 0.5)',
+  iconColor: '#5f6368',
+  disabled: '#6C757D',
+});

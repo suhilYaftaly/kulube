@@ -1,0 +1,6 @@
+Update Order Status: /api/updateOrderStatus?id=632b0cf7-3324-450c-82cd-d0266447759d&empId=9989&newStatus=served
+Method: PUT/PATCH
+
+
+possible status values: ready, served
+if status is ready no empId required - since it will be coming from kitchen

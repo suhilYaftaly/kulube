@@ -1,0 +1,21 @@
+Get user profile: /api/userProfile?empId=2222&empPwd=2222
+Method: GET
+
+image should be in base64 format
+
+{
+   "firstName":"Habib",
+   "lastName":"Zahoori",
+   "fullName":"Habib Zahoori",
+   "email":"habib.zahoori@gmail.com",
+   "phoneNum":"647-000-0000",
+   "empId":"2222",
+   "empPwd":"2222",
+   "roles":[
+      "CSR",
+      "assistant manager",
+      "manager",
+      "general manager"
+   ],
+   "img":""
+}
